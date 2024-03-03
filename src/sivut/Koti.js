@@ -1,6 +1,6 @@
 import React from 'react';
-import gameplay from '../images/gameplay.mp4'
-import poster2 from '../images/poster2.PNG'
+import gameplay from '../images/gameplay.mp4';
+import poster2 from '../images/poster2.PNG';
 
 
 function Koti() {

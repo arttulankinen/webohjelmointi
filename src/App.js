@@ -5,6 +5,8 @@ import { Arvostelut } from './sivut/Arvostelut';
 import { Tapahtumat } from './sivut/Tapahtumat';
 import { Pelitekniikka } from './sivut/Pelitekniikka';
 import { Koti } from './sivut/Koti';
+import gameplay from './images/gameplay.mp4';
+import poster2 from './images/poster2.PNG';
 
 function App() {
   return (

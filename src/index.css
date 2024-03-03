@@ -1052,9 +1052,8 @@
 
   #pelitekniikkateksti{
     color: #ffffff;
-     text-align: center;
-     padding-left: 16%;
-   
+    text-align: center;
+    padding-left: 16%;
     font-family: 'Franklin Gothic Medium';
     width: 70%;
   }
@@ -1332,7 +1331,7 @@
     font-family: 'Franklin Gothic Medium';
   }
   .pelit{
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items:start;
