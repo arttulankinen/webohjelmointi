@@ -5,8 +5,6 @@ import { Arvostelut } from './sivut/Arvostelut';
 import { Tapahtumat } from './sivut/Tapahtumat';
 import { Pelitekniikka } from './sivut/Pelitekniikka';
 import { Koti } from './sivut/Koti';
-import gameplay from './images/gameplay.mp4';
-import poster2 from './images/poster2.PNG';
 
 function App() {
   return (
@@ -66,14 +64,6 @@ function Main() {
           <Route path="/Pelitekniikka" element={<Pelitekniikka />} />
         </Routes>
       </div>
-      <div className='container'>
-          <h1 id='otsikkoid'>Tervetuloa GamingGuides-sivustolle!</h1>
-          <p id='tekstiId'>Tämä sivusto on omistettu kaikille tietokonepeleistä innostuneille pelaajille. Olit sitten kokenut peluri tai vasta-alkaja, täältä löydät inspiraatiota, vinkkejä ja tietoa seuraavaa pelikokemustasi varten. </p>
-          <div className='video-container'>
-          <video src={gameplay} width={640} height={360} controls poster={poster2} />
-     </div>
-     <div id='kotibackground'></div>
-     </div>
       <div id="footer">
         <p>Arttu Lankinen © 2024</p>
       </div>

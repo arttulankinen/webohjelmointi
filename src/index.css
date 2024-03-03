@@ -246,7 +246,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items:flex-start;
     width:80%;
     line-height: 1.6;
     list-style-image: url(./images/play-button.png);
@@ -506,7 +506,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items:flex-start;
     width:80%;
     line-height: 1.6;
     list-style-image: url(./images/play-button.png);
@@ -786,7 +786,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items:flex-start;
     width:80%;
     line-height: 1.6;
     list-style-image: url(./images/play-button.png);
@@ -1062,7 +1062,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items:flex-start;
     width:80%;
     line-height: 1.6;
     list-style-image: url(./images/play-button.png);
@@ -1334,7 +1334,7 @@
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: flex-start;
     width:80%;
     line-height: 1.6;
     list-style-image: url(./images/play-button.png);

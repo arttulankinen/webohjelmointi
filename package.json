@@ -1,5 +1,4 @@
 {
-  "homepage": "https://arttulankinen.github.io/webohjelmointi",
   "name": "webohjelmointi",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +19,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
+  
   },
   "eslintConfig": {
     "extends": [
