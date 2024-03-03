@@ -2,6 +2,7 @@ import React from 'react';
 import  "../index.css"
 
 function Historia() {
+
   return (
     <div className='container'>
       <h2 id='otsikkoid'>HISTORIA</h2>
@@ -13,6 +14,7 @@ function Historia() {
       1990-luvulla ja 2000-luvun alussa tekniikan kehitys mahdollisti entistä monimutkaisempien pelien luomisen, jotka tarjosivat syvempiä tarinoita, parempaa grafiikkaa ja monipuolisempia pelimekaniikoita. Online-pelaaminen alkoi myös nousta suosioon, ja verkossa tapahtuva yhteisöllinen pelaaminen muodostui tärkeäksi osaksi pelikulttuuria.
 
       Nykyään videopelit ovat valtava osa populaarikulttuuria.</p>
+      <div id='historiabackground'></div>
     </div>
   );
 }

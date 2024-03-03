@@ -38,7 +38,29 @@ function Pelitekniikka() {
           ))}
         </tbody>
       </table>
+      <div>
+       <ol id='pelitekniikkateksti' >
+          <li>Yhteensopivuus: Varmista, että kaikki osat ovat yhteensopivia keskenään. Tämä sisältää tarkistamisen, että emolevy tukee valitsemiasi prosessoria ja muistia, että virtalähde pystyy tarjoamaan tarpeeksi virtaa kaikille komponenteille ja että koteloon mahtuvat kaikki osat.</li>
+
+          <li>turvallisuus: Maadoitus on tärkeää välttämään staattista sähköä vaurioittamasta herkkiä komponentteja. Käytä maadoitettua ranneketta tai kosketa maadoitettua pintaa ennen kuin käsittelet herkkiä osia.</li>
+
+          <li>Oikeat työkalut: Varmista, että sinulla on oikeat työkalut kuten ruuvimeisseli ja tarvittavat kiinnitystarvikkeet. Tämä auttaa varmistamaan, että komponentit kiinnittyvät oikein ja turvallisesti.</li>
+
+          <li>Lämpötilanhallinta: Huolehdi, että tietokoneesi on riittävästi jäähdytetty. Tämä sisältää varmistamisen, että kotelossa on riittävä ilmavirtaus ja että prosessori ja näytönohjain ovat varustettu asianmukaisilla jäähdytysratkaisuilla, kuten tuulettimilla tai jäähdytyssiruilla.</li>
+
+          <li>Kaapelinhallinta: Pyri pitämään kaapelit järjestäytyneinä ja siisteinä kotelossa. Tämä ei ainoastaan helpota ilmavirran liikkumista, mutta myös helpottaa vianetsintää ja huoltoa tulevaisuudessa.</li>
+
+          <li>BIOS-asetukset: Kun olet asentanut kaikki komponentit, muista tarkistaa BIOS-asetukset. Usein on tarpeen määrittää oikeat käynnistysasetukset ja varmistaa, että kaikki komponentit tunnistetaan oikein.</li>
+
+          <li>Ohjainten ja käyttöjärjestelmän asennus: Kun tietokone on kasattu, sinun tulee asentaa käyttöjärjestelmä ja tarvittavat ohjaimet. Tämä varmistaa, että tietokoneesi toimii oikein ja hyödyntää kaikkia komponentteja täysimääräisesti.</li>
+
+          <li>Testaus: Ennen kuin alat käyttää tietokonetta normaalisti, on suositeltavaa tehdä perusteellinen testaus varmistaaksesi, että kaikki toimii kuten pitää. Tämä sisältää käynnistystestit, suorituskyvyn testit ja mahdollisesti stressitestit komponenteille.</li>
+
+          <li>Noudattamalla näitä periaatteita voit varmistaa, että tietokoneesi kokoaminen sujuu mahdollisimman sujuvasti ja että lopputulos on luotettava ja toimiva järjestelmä.</li></ol>
+      </div>
+      <div id='pelitekniikkabackground'></div>
     </div>
+    
   );
 }
 

@@ -2,6 +2,7 @@ import React from 'react';
 
 
 function Tapahtumat() {
+  
       const nykyisetTapahtumat = [
         { ajankohta: '29.2. – 3.3.2024', nimi: 'Lantrek 2024', paikkakunta: 'Tampere', paikkamaara: 0 },
         { ajankohta: '6.6. – 9.6.2024', nimi: 'Vectorama 2024', paikkakunta: 'Oulu', paikkamaara: 0 }
@@ -24,6 +25,7 @@ function Tapahtumat() {
       ];
     
       return (
+    
         <div className='container'>
           <h2>Nykyiset tapahtumat</h2>
           <table>
@@ -68,6 +70,7 @@ function Tapahtumat() {
               ))}
             </tbody>
           </table>
+          <div id='tapahtumatbackground'></div>
         </div>
       );
     }

@@ -2,6 +2,7 @@ import React from 'react';
 import gameplay from '../images/gameplay.mp4'
 import poster2 from '../images/poster2.PNG'
 
+
 function Koti() {
   return (
     <div className='container'>
@@ -10,6 +11,7 @@ function Koti() {
      <div className='video-container'>
      <video src={gameplay} width={640} height={360} controls poster={poster2} />
      </div>
+     <div id='kotibackground'></div>
      </div>
   );
 }
