@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/webohjelmointi/static/css/main.5b143aab.css",
-    "main.js": "/webohjelmointi/static/js/main.66f1820e.js",
-    "static/js/453.a5146c8f.chunk.js": "/webohjelmointi/static/js/453.a5146c8f.chunk.js",
-    "static/media/gameplay.mp4": "/webohjelmointi/static/media/gameplay.cd148ac3f0d90a427c62.mp4",
-    "static/media/poster2.PNG": "/webohjelmointi/static/media/poster2.3fe74cfd61e00efcc5f7.PNG",
-    "static/media/lanit.jpg": "/webohjelmointi/static/media/lanit.3d63c8a5f16b2aaef417.jpg",
-    "static/media/näyttis.PNG": "/webohjelmointi/static/media/näyttis.a9467477e20f21c8d809.PNG",
-    "static/media/PC.PNG": "/webohjelmointi/static/media/PC.03464d9aaa9ae35fbd07.PNG",
-    "static/media/taustakuva.jpg": "/webohjelmointi/static/media/taustakuva.3e852d83494c6d1bf983.jpg",
-    "static/media/nintendo.jpg": "/webohjelmointi/static/media/nintendo.f09d4255e33a9b5c4f58.jpg",
-    "index.html": "/webohjelmointi/index.html",
-    "main.5b143aab.css.map": "/webohjelmointi/static/css/main.5b143aab.css.map",
-    "main.66f1820e.js.map": "/webohjelmointi/static/js/main.66f1820e.js.map",
-    "453.a5146c8f.chunk.js.map": "/webohjelmointi/static/js/453.a5146c8f.chunk.js.map"
+    "main.css": "/static/css/main.f1a1feb1.css",
+    "main.js": "/static/js/main.f709712a.js",
+    "static/js/453.a5146c8f.chunk.js": "/static/js/453.a5146c8f.chunk.js",
+    "static/media/gameplay.mp4": "/static/media/gameplay.cd148ac3f0d90a427c62.mp4",
+    "static/media/poster2.PNG": "/static/media/poster2.3fe74cfd61e00efcc5f7.PNG",
+    "static/media/lanit.jpg": "/static/media/lanit.3d63c8a5f16b2aaef417.jpg",
+    "static/media/näyttis.PNG": "/static/media/näyttis.a9467477e20f21c8d809.PNG",
+    "static/media/PC.PNG": "/static/media/PC.03464d9aaa9ae35fbd07.PNG",
+    "static/media/taustakuva.jpg": "/static/media/taustakuva.3e852d83494c6d1bf983.jpg",
+    "static/media/nintendo.jpg": "/static/media/nintendo.f09d4255e33a9b5c4f58.jpg",
+    "index.html": "/index.html",
+    "main.f1a1feb1.css.map": "/static/css/main.f1a1feb1.css.map",
+    "main.f709712a.js.map": "/static/js/main.f709712a.js.map",
+    "453.a5146c8f.chunk.js.map": "/static/js/453.a5146c8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b143aab.css",
-    "static/js/main.66f1820e.js"
+    "static/css/main.f1a1feb1.css",
+    "static/js/main.f709712a.js"
   ]
 }
