@@ -1,20 +1,22 @@
 /* Puhelimet */
 
-@media (max-width: 767px)  {
-/* Kaikki elementit käyttävät Impact-fonttia */
-* {
+@media (max-width: 767px) {
+
+  /* Kaikki elementit käyttävät Impact-fonttia */
+  * {
     font-family: Impact;
   }
-  
+
   /* Korkeuden ja leveyden asettaminen koko näytön kokoiseksi */
-  html, body {
+  html,
+  body {
     height: 100vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
-  
-  
+
+
   /* Kehon taustaväri ja piilota vaakasuuntainen vierityspalkki */
   body {
     background-color: #000000;
@@ -23,7 +25,7 @@
     padding: 0;
     overflow-x: hidden;
   }
-  
+
   /* Hakemistopalkin tyyli */
   #hakemisto {
     background-color: #000000;
@@ -34,7 +36,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   /* Painikkeiden yleinen tyyli */
   .button {
     background-color: #000000;
@@ -55,22 +57,22 @@
     color: rgb(255, 255, 255);
     position: relative;
   }
-  
-  
+
+
   /* Hakukentän tyyli */
   .hakukentta {
-   position: absolute;
+    position: absolute;
     padding-top: 1.5rem;
     padding-left: 4rem;
     width: 6vw;
   }
-  
+
   /* Hakukentän tekstikentän tyyli */
   .hakukentta input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 10px;
   }
-  
+
   /* Hakukentän painikkeen tyyli */
   .hakukentta button {
     padding: 2px 5px;
@@ -80,7 +82,7 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
+
   /* Otsikon tyyli */
   #otsikko {
     color: rgb(0, 20, 55);
@@ -91,7 +93,7 @@
     text-decoration: none;
     font-size: 2rem;
   }
-  
+
   /* Yläosan tyyli */
 
   /* Alaosan tyyli */
@@ -107,7 +109,7 @@
     justify-content: center;
     width: 100%;
   }
-  
+
   /* Taustakuvan tyyli */
   #background {
     position: fixed;
@@ -119,12 +121,12 @@
     background-size: 100%;
     background-position: center;
     z-index: -1;
-    overflow-x: hidden ;
+    overflow-x: hidden;
   }
-  
+
   /* Kontainerin tyyli */
   .container {
-    background-color: rgba(13, 13, 13, 0.7);
+    background-color: rgba(14, 14, 14, 0.7);
     width: 100%;
     align-items: center;
     max-width: 800px;
@@ -133,17 +135,17 @@
 
   /* Videokontainerin tyyli */
   .video-container {
-    position: relative; 
-    
+    position: relative;
+
   }
-  
+
   /* Otsikkoid-taulukon tyyli */
   #otsikkoid {
     color: #ffffff;
     opacity: 1 !important;
     align-items: center;
   }
-  
+
   /* TekstiId-taulukon tyyli */
   #tekstiId {
     color: #ffffff;
@@ -151,33 +153,35 @@
     text-align: center;
     font-family: 'Franklin Gothic Medium';
   }
-  
-  /* Historiateksti-taulukon tyyli */
-#historiateksti {
-  color: #ffffff;
-  font-family: 'Franklin Gothic Medium';
-  font-size: small;
-  margin-bottom: 100px;
-  width: 80%;
-  text-align: center;
-  white-space: wrap;
-  text-overflow: ellipsis;
-}
 
-th, td {
+  /* Historiateksti-taulukon tyyli */
+  #historiateksti {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+    font-size: small;
+    margin-bottom: 100px;
+    width: 80%;
+    text-align: center;
+    white-space: wrap;
+    text-overflow: ellipsis;
+  }
+
+  th,
+  td {
     color: white;
     font-family: 'Franklin Gothic Medium';
     border: 0.1px solid #ddd;
     padding: 0px;
     text-align: left;
   }
-  
+
   /* Taulukon tyyli */
   table {
     width: 80%;
     border-collapse: collapse;
   }
-  .tekstikuvat{
+
+  .tekstikuvat {
     width: 200px;
     height: auto;
   }
@@ -188,62 +192,69 @@ th, td {
 
 
 
-@media (max-width: 768px) and (max-width:1024px) {
+@media (max-width: 768px) and (max-width:1279px) {
   * {
     font-family: Impact;
     text-decoration: none;
   }
 
   .table {
-      width: 100%; 
-      overflow: auto;
-      display: block;
+    width: 100%;
+    overflow: auto;
+    display: block;
+    color: white;
   }
-  th, td {
-      padding: 0px; 
-      text-align: center;
-      font-size: x-small;
-    }
-    html, body {
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
+
+  th,
+  td {
+    padding: 0px;
+    text-align: center;
+    font-size: x-small;
+    color: white;
   }
-  
+
+  html,
   body {
-      background-color: #000000;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
-  
+
+  body {
+    background-color: #000000;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
   #hakemisto {
-      background-color: #000000;
-      width: 100%;
-      height: 10vh;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    background-color: #000000;
+    width: 100%;
+    height: 10vh;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .button{
-      background-color: #000000;
-      color: #fdfdfd;
-      height: 10vh;
-      width: 100%;
-      border-color: rgb(0, 255, 170);
-      font-size:small;
-      text-decoration: none;
-      text-align: center ;
+
+  .button {
+    background-color: #000000;
+    color: #fdfdfd;
+    height: 10vh;
+    width: 100%;
+    border-color: rgb(0, 255, 170);
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
   }
-  
+
   .hakukentta {
     width: 15vw;
-    margin-top: 10px; /* Lisätään väliä yläpuolelle */
-    display:flex;
+    margin-top: 10px;
+    /* Lisätään väliä yläpuolelle */
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 8.9vw;
@@ -265,107 +276,103 @@ th, td {
     cursor: pointer;
   }
 
-    #otsikko{
-     color:rgb(0, 20, 55);
-     text-transform: uppercase;
-     -webkit-text-stroke: 0.8px aquamarine;
-     padding-left: 5em;
-     letter-spacing: 0.02em;
-     text-decoration: none;
+  #otsikko {
+    color: rgb(0, 20, 55);
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.8px aquamarine;
+    padding-left: 5em;
+    letter-spacing: 0.02em;
+    text-decoration: none;
   }
-  
+
   #header {
-      background: #000000;
-      width: 100%;
-      height: 14vh;
-      display: flex;
-      color:rgb(255, 255, 255);
+    background: #000000;
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    color: rgb(255, 255, 255);
   }
-  
+
   #footer {
-      background-color:#ffffff;
-      height: 5%;
-      width: 100vh;
-      font-size: 16px;
-      margin-top: auto;
-      display: flex;
-      align-items: center;
-      font-weight: bold;
-      justify-content: center;
-      width: 100%;
+    background-color: #ffffff;
+    height: 5%;
+    width: 100vh;
+    font-size: 16px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    width: 100%;
   }
-  
+
   #background {
-      position:fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url('./images/taustakuva.jpg');
-      background-size: cover;
-      background-position: center;
-      z-index: -1;
-      overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/taustakuva.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    overflow-x: hidden;
   }
-  
+
   .container {
-      background-color:rgba(12, 12, 12, 0.7);
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      margin: auto;
-      overflow-x: hidden;
-      max-width: 800px;
+    background-color: rgba(10, 10, 10, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow-x: hidden;
+    max-width: 800px;
   }
-  
-  
-  #otsikkoid{
-      color: #ffffff;
-      opacity: 1 !important;
-      width: 80%;
-      height: 20%;
-      display: flex;
-      justify-content: center;
+
+
+  #otsikkoid {
+    color: #ffffff;
+    opacity: 1 !important;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
   }
-  
-  #tekstiId{
-      color: #ffffff;
-      opacity: 1 !important;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; 
-      margin: auto;
-      position:sticky;
-      width: 100%;
-      font-family: 'Franklin Gothic Medium';
+
+  #tekstiId {
+    color: #ffffff;
+    opacity: 1 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: sticky;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium';
   }
-  
-  #historiateksti{
-      color: #ffffff;
-      font-family: 'Franklin Gothic Medium';
-      font-size: small;
-      text-align: center;
-      margin: auto;
-      padding-bottom: 30%;
-      width:80%;
-      white-space: wrap; 
-      text-overflow: ellipsis; 
-      
+
+  #historiateksti {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30%;
+    width: 80%;
+    white-space: wrap;
+    text-overflow: ellipsis;
+
   }
-  
-    .video-container {
-     
-    }
-  
-    h2{
-      color: white;
-      font-family: 'Franklin Gothic Medium';
-      padding: 0px;
-      text-align: center;
-    }
-  }  
+
+  h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium';
+    padding: 0px;
+    text-align: center;
+  }
+}
 
 
 
@@ -373,16 +380,16 @@ th, td {
 
 
 /* Tabletit */
-  
-    @media (min-width: 768px) and (max-width: 1279px)  {
-      * {
-        font-family: Impact;
-        text-decoration: none;
-      }
-    
-          
-  h2{
-    color: white;
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  * {
+    font-family: Impact;
+    text-decoration: none;
+  }
+
+
+  h2 {
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium';
     padding: 0px;
     text-align: center;
@@ -433,13 +440,13 @@ th, td {
     height: 14vh;
     display: flex;
     position: relative;
-    flex-direction:column;
+    flex-direction: column;
   }
-  
-  
+
+
   /* Hakukentän tyyli */
   .hakukentta {
-   position: absolute;
+    position: absolute;
     padding-top: 3%;
     padding-left: 4rem;
   }
@@ -521,7 +528,7 @@ th, td {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
   }
 
   /* TekstiId-taulukon tyyli */
@@ -548,7 +555,8 @@ th, td {
 
   /* Videokontainerin tyyli */
   .video-container {
-    margin-top: 20px; /* Lisää tilaa yläpuolelle */
+    margin-top: 20px;
+    /* Lisää tilaa yläpuolelle */
     margin-right: 1px;
     overflow-x: hidden;
   }
@@ -567,17 +575,18 @@ th, td {
     width: 80%;
     height: 70%;
     border-collapse: collapse;
+    color: white;
   }
 }
-       
+
 
 /*--------------------------------------------------------------*/
 
-    
-    
+
+
 /* Kannettavat tietokoneet */
 @media (min-width: 1280px) and (max-width: 1919px) {
- 
+
   * {
     font-family: Impact;
     text-decoration: none;
@@ -624,18 +633,18 @@ th, td {
     color: rgb(255, 255, 255);
     display: flex;
     position: relative;
-    flex-direction:column;
+    flex-direction: column;
   }
-  
-  
+
+
   /* Hakukentän tyyli */
   .hakukentta {
-   position: absolute;
+    position: absolute;
     padding-top: 3%;
     padding-left: 4rem;
-    
+
   }
-  
+
   /* Hakukentän tekstikentän tyyli */
   .hakukentta input[type="text"] {
     border: 1px solid #ccc;
@@ -644,7 +653,7 @@ th, td {
     height: 1.5em;
 
   }
-  
+
   /* Hakukentän painikkeen tyyli */
   .hakukentta button {
     padding: 2px 5px;
@@ -662,7 +671,7 @@ th, td {
     -webkit-text-stroke: 0.8px aquamarine;
     letter-spacing: 0.02em;
     text-decoration: none;
-    font-size: 2em; 
+    font-size: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -707,7 +716,7 @@ th, td {
     max-width: 8;
     box-sizing: border-box;
     align-items: center;
-    
+
   }
 
   /* Otsikkoid-taulukon tyyli */
@@ -757,7 +766,7 @@ th, td {
     text-align: left;
   }
 
-  h2{
+  h2 {
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium';
     padding: 0px;
@@ -768,6 +777,7 @@ th, td {
   table {
     width: 70%;
     border-collapse: collapse;
+    color: white;
   }
 }
 
@@ -775,5 +785,4 @@ th, td {
 /*--------------------------------------------------------------*/
 
 /* Tietokoneen näytöt */
-@media (min-width: 1920px) and (max-width: 3839px) {
-}
+@media (min-width: 1920px) and (max-width: 3839px) {}
