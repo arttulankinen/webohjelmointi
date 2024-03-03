@@ -242,6 +242,16 @@
     align-items: center;
  
   }
+  .pelit{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width:80%;
+    line-height: 1.6;
+    list-style-image: url(./images/play-button.png);
+    
+   }
 }
 
 
@@ -492,6 +502,16 @@
     align-items: center;
     font-family: 'Franklin Gothic Medium' !important;
   }
+  .pelit{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width:80%;
+    line-height: 1.6;
+    list-style-image: url(./images/play-button.png);
+    
+   }
 }
 
 
@@ -754,6 +774,24 @@
     flex-direction: column;
     font-family: 'Franklin Gothic Medium';
   }
+  .pelit{
+    color: white ;
+    align-items:center;
+   }
+
+   h1{
+    color: white;
+   }
+   .pelit{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width:80%;
+    line-height: 1.6;
+    list-style-image: url(./images/play-button.png);
+    
+   }
 
 
 }
@@ -1014,16 +1052,22 @@
 
   #pelitekniikkateksti{
     color: #ffffff;
-    font-size: large;
-    text-align: center;
+     text-align: center;
+     padding-left: 16%;
+   
+    font-family: 'Franklin Gothic Medium';
+    width: 70%;
+  }
+
+    .pelit{
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium';
-  }
-  .pelit{
+    align-items:start;
+    width:80%;
+    line-height: 1.6;
+    list-style-image: url(./images/play-button.png);
     
- 
    }
 
 }
@@ -1287,4 +1331,14 @@
     align-items: center;
     font-family: 'Franklin Gothic Medium';
   }
+  .pelit{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width:80%;
+    line-height: 1.6;
+    list-style-image: url(./images/play-button.png);
+    
+   }
 }

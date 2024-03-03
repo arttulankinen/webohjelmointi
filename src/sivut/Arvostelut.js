@@ -11,17 +11,17 @@ function Arvostelut() {
   ];
 
   const seikkailuPelit = [
-    "The Legend of Zelda: Breath of the Wild",
+    "The Legend of Zelda",
     "Horizon Zero Dawn",
-    "Uncharted 4: A Thief's End",
+    "Uncharted 4",
     "Ghost of Tsushima",
     "God of War"
   ];
 
   const roolipelit = [
-    "The Witcher 3: Wild Hunt",
+    "The Witcher 3",
     "Cyberpunk 2077",
-    "Final Fantasy VII Remake",
+    "Final Fantasy VII",
     "Persona 5",
     "Elden Ring"
   ];
@@ -38,8 +38,8 @@ function Arvostelut() {
       <h1>Arvostelut</h1>
       <h2>Suosituimmat pelit</h2>
       <h2>FPS</h2>
-      <div className='pelit'>
-      <ul>
+      <div>
+      <ul className='pelit'>
         {toimintaPelit.map((peli, index) => (
           <li key={index}>{peli}</li>
         ))}
@@ -47,8 +47,8 @@ function Arvostelut() {
       </div>
 
       <h2>BattleRoyale</h2>
-      <div className='pelit'>
-      <ul>
+      <div>
+      <ul className='pelit'>
         {battleroyale.map((peli, index) => (
           <li key={index}>{peli}</li>
         ))}
@@ -56,8 +56,8 @@ function Arvostelut() {
       </div>
 
       <h2>Rpg-pelit</h2>
-      <div className='pelit'>
-      <ul >
+      <div>
+      <ul  className='pelit'>
         {roolipelit.map((peli, index) => (
           <li key={index}>{peli}</li>
         ))}
@@ -65,8 +65,8 @@ function Arvostelut() {
       </div>
 
       <h2>seikkailuPelit</h2>
-      <div className='pelit'>
-      <ul>
+      <div>
+      <ul className='pelit'>
         {seikkailuPelit.map((peli, index) => (
           <li key={index}>{peli}</li>
         ))}
