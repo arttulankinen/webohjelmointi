@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webohjelmointi/static/css/main.d35efe3f.css",
+    "main.js": "/webohjelmointi/static/js/main.6fbb1a62.js",
+    "static/js/453.a5146c8f.chunk.js": "/webohjelmointi/static/js/453.a5146c8f.chunk.js",
+    "static/media/gameplay.mp4": "/webohjelmointi/static/media/gameplay.cd148ac3f0d90a427c62.mp4",
+    "static/media/poster2.PNG": "/webohjelmointi/static/media/poster2.3fe74cfd61e00efcc5f7.PNG",
+    "static/media/lanit.jpg": "/webohjelmointi/static/media/lanit.3d63c8a5f16b2aaef417.jpg",
+    "static/media/näyttis.PNG": "/webohjelmointi/static/media/näyttis.a9467477e20f21c8d809.PNG",
+    "static/media/PC.PNG": "/webohjelmointi/static/media/PC.03464d9aaa9ae35fbd07.PNG",
+    "static/media/taustakuva.jpg": "/webohjelmointi/static/media/taustakuva.3e852d83494c6d1bf983.jpg",
+    "static/media/nintendo.jpg": "/webohjelmointi/static/media/nintendo.f09d4255e33a9b5c4f58.jpg",
+    "index.html": "/webohjelmointi/index.html",
+    "main.d35efe3f.css.map": "/webohjelmointi/static/css/main.d35efe3f.css.map",
+    "main.6fbb1a62.js.map": "/webohjelmointi/static/js/main.6fbb1a62.js.map",
+    "453.a5146c8f.chunk.js.map": "/webohjelmointi/static/js/453.a5146c8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d35efe3f.css",
+    "static/js/main.6fbb1a62.js"
+  ]
+}
