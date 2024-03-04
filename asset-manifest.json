@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webohjelmointi/static/css/main.e42c4aaf.css",
-    "main.js": "/webohjelmointi/static/js/main.1dd53202.js",
+    "main.js": "/webohjelmointi/static/js/main.34986df9.js",
     "static/js/453.a5146c8f.chunk.js": "/webohjelmointi/static/js/453.a5146c8f.chunk.js",
     "static/media/gameplay.mp4": "/webohjelmointi/static/media/gameplay.cd148ac3f0d90a427c62.mp4",
     "static/media/poster2.PNG": "/webohjelmointi/static/media/poster2.3fe74cfd61e00efcc5f7.PNG",
@@ -12,11 +12,11 @@
     "static/media/nintendo.jpg": "/webohjelmointi/static/media/nintendo.f09d4255e33a9b5c4f58.jpg",
     "index.html": "/webohjelmointi/index.html",
     "main.e42c4aaf.css.map": "/webohjelmointi/static/css/main.e42c4aaf.css.map",
-    "main.1dd53202.js.map": "/webohjelmointi/static/js/main.1dd53202.js.map",
+    "main.34986df9.js.map": "/webohjelmointi/static/js/main.34986df9.js.map",
     "453.a5146c8f.chunk.js.map": "/webohjelmointi/static/js/453.a5146c8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e42c4aaf.css",
-    "static/js/main.1dd53202.js"
+    "static/js/main.34986df9.js"
   ]
 }
