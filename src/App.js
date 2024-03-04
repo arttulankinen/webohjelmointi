@@ -57,7 +57,8 @@ function Main() {
 
       <div className='sisältö'>
         <Routes>
-          <Route path="/" element={<Koti />} />
+          <Route index element={<Koti />} />
+          <Route path="/Koti" element={<Koti />} />
           <Route path="/Historia" element={<Historia />} />
           <Route path="/Arvostelut" element={<Arvostelut />} />
           <Route path="/Tapahtumat" element={<Tapahtumat />} />
