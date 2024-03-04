@@ -20,6 +20,7 @@ function Main() {
 
   const handleSearch = () => {
     if (searchTerm.trim() === '') {
+      navigate("/");
       return;
     }
 
@@ -58,6 +59,7 @@ function Main() {
       <div className='sisältö'>
         <Routes>
           <Route index element={<Koti />} />
+          <Route path="/" element={<Koti />} />
           <Route path="/Koti" element={<Koti />} />
           <Route path="/Historia" element={<Historia />} />
           <Route path="/Arvostelut" element={<Arvostelut />} />
