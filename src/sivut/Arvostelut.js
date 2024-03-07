@@ -33,6 +33,7 @@ function Arvostelut() {
     "COD, Warzone",
     "DayZ"
   ];
+  
   return (
     <div className='container'>
       <h1>Arvostelut</h1>

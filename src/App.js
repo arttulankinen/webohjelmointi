@@ -67,7 +67,7 @@ function Main() {
         </Routes>
       </div>
       <div id="footer">
-        <p>Arttu Lankinen © 2024</p>
+        <p id='copyright'>Arttu Lankinen © 2024</p>
         <p>Yhteystiedot:<br />
            pelaajienmaailma@gmail.com  <br/>
            Puhelin: 050 123 4567
