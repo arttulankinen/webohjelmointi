@@ -894,20 +894,6 @@
     justify-content: center;
   }
 
-
-
-  /* Alaosan tyyli */
-  #footer {
-    background-color: #ffffff;
-    height: 5%;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    justify-content: center;
-    width: 100%;
-  }
-
   /* Taustakuvan tyyli */
   #kotibackground {
     position: fixed;
@@ -1066,8 +1052,18 @@
     width:80%;
     line-height: 1.6;
     list-style-image: url(./images/play-button.png);
-    
    }
+
+   #footer {
+    background-color: #ffffff;
+    height: 10vh;
+    font-size: small;
+    display: flex;
+    align-items: center !important;
+    justify-content:space-around;
+    width: 100%;
+  }
+
 
 }
 
@@ -1340,4 +1336,23 @@
     list-style-image: url(./images/play-button.png);
     
    }
+   #footer {
+    background-color: #333; /* vaihda taustaväri haluamaksesi */
+    color: #fff; /* vaihda tekstin väri haluamaksesi */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content p {
+    margin: 0; /* poista p-elementtien oletusmarginaali */
+}
+
+.footer-content p:nth-child(2) {
+    text-align: left;
+}
 }

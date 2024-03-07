@@ -8,7 +8,7 @@ import { Koti } from './sivut/Koti';
 
 function App() {
   return (
-    <Router>
+    <Router basename='webohjelmointi'>
       <Main />
     </Router>
   );
@@ -37,7 +37,6 @@ function Main() {
       console.log('Hakutermiä ei löytynyt mistään sivulta.');
     }
   };
-
   return (
     <div>
       <div id="header">
@@ -69,6 +68,10 @@ function Main() {
       </div>
       <div id="footer">
         <p>Arttu Lankinen © 2024</p>
+        <p>Yhteystiedot:<br />
+           pelaajienmaailma@gmail.com  <br/>
+           Puhelin: 050 123 4567
+        </p>
       </div>
     </div>
   );
